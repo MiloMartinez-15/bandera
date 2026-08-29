@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flag — Cloth WebGL Experience</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="hero">
+    <div id="webgl"></div>
+    <div class="grid"></div>
+    <div class="vignette"></div>
+
+    <header>
+      <div class="logo">FLAG<span>/01</span></div>
+      <div class="meta">CLOTH / WEBGL / 2026</div>
+    </header>
+
+    <section class="copy">
+      <div class="eyebrow">INTERACTIVE FABRIC STUDY</div>
+      <h1>FEEL<br><em>THE WIND.</em></h1>
+      <p>
+        Una bandera 3D simulada como tela: el viento crea ondas, el cursor
+        perturba la superficie y el scroll cambia la cámara.
+      </p>
+    </section>
+
+    <div class="bottom">
+      <span>MOVE YOUR CURSOR</span>
+      <span class="line"></span>
+      <span>SCROLL TO EXPLORE</span>
+    </div>
+  </main>
+
+  <section class="next">
+    <div>
+      <small>01 — CLOTH PHYSICS</small>
+      <h2>Una superficie<br>que nunca se queda quieta.</h2>
+    </div>
+    <p>
+      La tela se genera en Three.js mediante una malla subdividida. Cada
+      vértice recibe una combinación de ondas de viento, ruido y una
+      perturbación suave causada por el puntero.
+    </p>
+  </section>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
